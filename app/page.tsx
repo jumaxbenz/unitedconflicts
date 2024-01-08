@@ -3,8 +3,17 @@ import styles from './page.module.css'; // Stellen Sie sicher, dass der Pfad zu 
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      {/* Hier können weitere Inhalte eingefügt werden, falls gewünscht */}
-    </div>
+    <main className={styles.main}>
+      <h1 className={styles.title}>
+        Willkommen zu meiner App!
+      </h1>
+      <div className={styles.description}>
+        <p>
+          Get started by editing&nbsp;
+          <code className={styles.code}>app/page.tsx</code>
+        </p>
+      </div>
+      {/* Weitere Inhalte... */}
+    </main>
   );
 }
